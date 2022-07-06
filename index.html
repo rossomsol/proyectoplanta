@@ -8,71 +8,128 @@
     <title>PLANTA</title>
     <meta name="description" content="Sitio de comunidad especializada en venta, compra, cuidados de plantas silvestres y de hogar.">
     <meta name="keywords" content="plantas naturaleza cuidados de plantas bromelia cactus helecho bonsai monstera">
+    <style>
+         table, th, td {border: 1px black solid}
+    </style>
 </head>
 
  <body>   
     <header>
-        <nav><a href="/home.html/">home</a></nav>
-        <nav><a href="/store.html/">store</a></nav>
-        <nav><a href="/contact.html/">contact us</a></nav>
-       <img src="/img/jungle.jpg" alt="plantphoto" width="400">
-        <h1>SITIO DE PLANTAS</h1>
-        <h2>Donde las plantas no son solo decoración, si no miembros de la familia.</H2>    
-     </header>
+    <nav><a href="/home.html/">home</a></nav>
+    <nav><a href="/store.html/">store</a></nav>
+    <nav><a href="/contact.html/">contact us</a></nav>
+
+    <h1>SITIO DE PLANTAS</h1>
+
+    <img src="/img/jungle.jpg" alt="plantphoto" width="400">
+
+    <h2>Donde las plantas no son solo decoración, si no miembros de la familia.</H2>    
+    </header>
+
+    <hr>
+
+    <p>PLANTA es una comunidad donde los amantes de la naturaleza se reunen para polinizarse. Así como las plantas emanan información y nutrientes, en esta comunidad encontrarás información sobre cuidados, puntos de venta, trueque, compra y venta, y más cosas más del mundo plasntífero.</p>
+                 
+    <hr>
+
+    <!--log in-->
+    <div>
+    <form action="/formulario" method="post">
+    <h2>Log in!</h2>                                 
+    <label for="username">usarname:</label>
+    <input type="text" placeholder="username" required>
+    <br></br>
+    <label for="password">password:</label>
+    <input type="text" placeholder="password" required>
+    <br></br>
+    <nav><a href="/password/password.html">Forgot ur password?</a></nav>                   
+    <label for="saveuserdata">Recordar datos:</label>
+    <input type="checkbox" name=""Save data">                    
+    <br></br>
+    <button type="submit">Log in</button>
+    <button type="reset">reset</button>
+
+    </form>
+    </div>
+
+    <hr>
+
+    <!--sing in-->
+    <div>
+    <form>
+    <h2>Or sign up!</h2>
+    <input type="email" placeholder="your mail" required>
+    <br></br>
+    <input type="text" placeholder="your password" required>
+    <br></br>
+    <label for="usergender">Gender:</label>
+    <label for="usergender">Man</label>
+    <input type="radio" name="usergender">
+    <label for="usergender">Woman</label>
+    <input type="radio" name="usergender">
+    <label for="usergender">Non binary</label>
+    <input type="radio" name="usergender">
+    <label for="usergender">Queer</label>
+    <input type="radio" name="usergender">
+    <br></br>
+    <input type="button" value="Create acount">
+
+    </form>
+
+    <hr>
+    <!--ul ol-->
+    <h2>Cambiá la manera de vincularte con tus plantas<h2>
+    <ul>
+    <li>Cuidados</li>
+        <ol>
+        <li style="list-style-type: georgian;">Observá el color de sus hojas</li>
+        <li style="list-style-type: georgian;">Observa la humedad de la tierra</li>
+        <li style="list-style-type: georgian;">Observa el olor y la textura de sus hojas</li>
+        </ol>
+    <li>Comprar no es la única forma de conseguirlas</li>
+        <ol>
+        <li>Aprendé a reingertar</li>
+        <li>Intercambiá con la comunidad por nuevas especies</li>
+        <li>Robá gajitos ajenos en la vía pública</li>
+        </ol>
+    </ul>
+
+    <hr>
+
+    <table style="width: 500px;">
+         <thead>
+         <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+         </tr>
+         </thead>
+
+         <tbody>
+         <tr>
+            <td>Amapola</td>
+            <td>20$</td>
+         </tr>
+    
+         <tr>
+            <td>Cactus</td>
+            <td>13$</td>
+         </tr>
+    
+         <tr>
+            <td>Helecho</td>
+            <td>25$</td>
+            </tr>
+
+         <tr>
+            <td>Agatha</td>
+             <td>21$</td>
+            </tr>
+         </tbody>
+
+    </table>
+    </div>
+    <footer>Derechos reservados a PLANTA ©</footer>
 
  </body>
-
- <hr>
-
-<main>
-                  <p>PLANTA es una comunidad donde los amantes de la naturaleza se reunen para polinizarse. Así como las plantas emanan información y nutrientes, en esta comunidad encontrarás información sobre cuidados, puntos de venta, trueque, compra y venta, y más cosas más del mundo plasntífero.</p>
-                 
-                  <hr>
-
-                 <!--log in-->
-                 <div>
-                 <form>
-                    <h2>Log in!</h2>                                 
-                    <label for="username">usarname:</label>
-                    <input type="text" placeholder="username" required>
-                    <br></br>
-                    <label for="password">password:</label>
-                    <input type="text" placeholder="password" required>
-                    <br></br>
-                    <nav><a href="/password/password.html">Forgot ur password?</a></nav>                   
-                    <label for="saveuserdata">Recordar datos:</label>
-                    <input type="checkbox" name=""Save data" required>                    
-                    <br></br>
-                    <input type="button" value="Log in">
-
-                 </form>
-                 </div>
-
-     <hr>
-
-                <!--sing in-->
-                <div>
-                <form>
-                    <h2>Or sign up!</h2>
-                    <input type="email" placeholder="your mail" required>
-                    <br></br>
-                    <input type="text" placeholder="your password" required>
-                    <br></br>
-                    <label for="usergender">Gender:</label>
-                    <label for="usergender">Man</label>
-                    <input type="radio" name="usergender">
-                    <label for="usergender">Woman</label>
-                    <input type="radio" name="usergender">
-                    <label for="usergender">Non binary</label>
-                    <input type="radio" name="usergender">
-                    <label for="usergender">Queer</label>
-                    <input type="radio" name="usergender">
-                     <br></br>
-                     <input type="button" value="Create acount">
-
-                </form>
-                </div>
-                <footer>Derechos reservados a PLANTA ©</footer>
-</main>
 
 </html>
