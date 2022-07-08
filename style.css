@@ -1,0 +1,29 @@
+#tittle {
+color:cadetblue ; background-color: beige; border: 5px rosybrown inset;
+}
+
+p {
+background-color:azure;
+}
+
+.account {
+    color: cadetblue; 
+    border-style:inset ;
+    border-color: rgb(205, 184, 224);
+    border-radius: 9px;
+    border-width: 7px;
+}
+
+.tlista {
+    color: darkcyan;
+}
+
+.clista {
+    color:darkslateblue;
+}
+
+#prueba {
+    height: 400px;
+background-image: url(/img/jungle2.jpg); background-size: cover;
+
+}

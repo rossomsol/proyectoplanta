@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head id="titulo">
+<head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,130 +12,133 @@
     <style>
          table, th, td {border: 1px black solid}
     </style>
+    <link rel="stylesheet" href="style.css">
+
 </head>
-
- <body>   
+ 
+<body>  
+      <ARTicle id="prueba">
+         Esto es una prueba
+      </ARTicle>
+    <div> 
     <header>
-         <div>
-
-          <h1 id="titulo">SITIO DE PLANTAS</h1>
-
-          <img src="/img/jungle.jpg" alt="plantphoto" width="400">
-  
+          <h1 id="tittle">SITIO DE PLANTAS</h1>
+          <img src="/img/jungle.jpg" alt="plantphoto" width="400" id="image">  
           <h2>Donde las plantas no son solo decoración, si no miembros de la familia.</H2>  
-
     </header>
     </div>
 
     <hr>
 
     <div>
-      <p>PLANTA es una comunidad donde los amantes de la naturaleza se reunen para polinizarse. Así como las plantas emanan información y nutrientes, en esta comunidad encontrarás información sobre cuidados, puntos de venta, trueque, compra y venta, y más cosas más del mundo plasntífero.</p>
+       <p>PLANTA es una comunidad donde los amantes de la naturaleza se reunen para polinizarse. Así como las plantas emanan información y nutrientes, en esta comunidad encontrarás información sobre cuidados, puntos de venta, trueque, compra y venta, y más cosas del mundo placntífero.</p>
     </div>
                      
     <hr>
 
     <!--log in-->
-    <div>
+    <div class="account">
     <form action="/formulario" method="post">
-    <h2>Log in!</h2>                                 
-    <label for="username">usarname:</label>
-    <input type="text" placeholder="username" required>
-    <br></br>
-    <label for="password">password:</label>
-    <input type="text" placeholder="password" required>
-    <br></br>
-    <nav><a href="/password/password.html">Forgot ur password?</a></nav>                   
-    <label for="saveuserdata">Recordar datos:</label>
-    <input type="checkbox" name=""Save data">                    
-    <br></br>
-    <button type="submit">Log in</button>
-    <button type="reset">reset</button>
-
+       <h2 id="log">Log in!</h2>                                 
+       <label for="username">usarname:</label>
+       <input type="text" placeholder="username" required>
+       <br></br>
+       <label for="password">password:</label>
+       <input type="text" placeholder="password" required>
+       <br></br>
+       <nav><a href="/password/password.html">Forgot ur password?</a></nav>                   
+       <label for="saveuserdata">Recordar datos:</label>
+       <input type="checkbox" name=""Save data">                    
+       <br></br>
+       <button type="submit">Log in</button>
+       <button type="reset">reset</button>
     </form>
     </div>
 
     <hr>
 
     <!--sing in-->
-    <div>
+    <div class="account">
     <form>
-    <h2>Or sign up!</h2>
-    <input type="email" placeholder="your mail" required>
-    <br></br>
-    <input type="text" placeholder="your password" required>
-    <br></br>
-    <label for="usergender">Gender:</label>
-    <label for="usergender">Man</label>
-    <input type="radio" name="usergender">
-    <label for="usergender">Woman</label>
-    <input type="radio" name="usergender">
-    <label for="usergender">Non binary</label>
-    <input type="radio" name="usergender">
-    <label for="usergender">Queer</label>
-    <input type="radio" name="usergender">
-    <br></br>
-    <input type="button" value="Create acount">
-
+       <h2">Or sign up!</h2>
+       <input type="email" placeholder="your mail" required>
+       <br></br>
+       <input type="text" placeholder="your password" required>
+       <br></br>
+       <label for="usergender">Gender:</label>
+       <label for="usergender">Man</label>
+       <input type="radio" name="usergender">
+       <label for="usergender">Woman</label>
+       <input type="radio" name="usergender">
+       <label for="usergender">Non binary</label>
+       <input type="radio" name="usergender">
+       <label for="usergender">Queer</label>
+       <input type="radio" name="usergender">
+       <br></br>
+       <input type="button" value="Create acount">
+    </div>
     </form>
 
     <hr>
+
+    <div class="vinculo">
     <!--ul ol-->
-    <h2>Cambiá la manera de vincularte con tus plantas<h2>
-    <ul>
-    <li>Cuidados</li>
-        <ol>
-        <li style="list-style-type: georgian;">Observá el color de sus hojas</li>
-        <li style="list-style-type: georgian;">Observa la humedad de la tierra</li>
-        <li style="list-style-type: georgian;">Observa el olor y la textura de sus hojas</li>
-        </ol>
-    <li>Comprar no es la única forma de conseguirlas</li>
-        <ol>
-        <li>Aprendé a reingertar</li>
-        <li>Intercambiá con la comunidad por nuevas especies</li>
-        <li>Robá gajitos ajenos en la vía pública</li>
-        </ol>
-    </ul>
+       <h2>Cambiá la manera de vincularte con tus plantas<h2>
+       <ul>
+       <li class="tlista">Cuidados</li>
+          <ol>
+          <li style="list-style-type: georgian;" class="clista">Observá el color de sus hojas</li>
+          <li style="list-style-type: georgian;" class="clista">Observa la humedad de la tierra</li>
+          <li style="list-style-type: georgian;" class="clista">Observa el olor y la textura de sus hojas</li>
+          </ol>
+       <li class="tlista">Comprar no es la única forma de conseguirlas</li>
+          <ol>
+          <li class="clista">Aprendé a reingertar</li>
+          <li class="clista">Intercambiá con la comunidad por nuevas especies</li>
+          <li class="clista">Robá gajitos ajenos en la vía pública</li>
+          </ol>
+       </ul>
+    </div>
 
     <hr>
 
+    <div>
     <table style="width: 500px;">
-         <thead>
-         <tr>
+          <thead>
+          <tr>
             <th>Producto</th>
             <th>Precio</th>
-         </tr>
-         </thead>
+          </tr>
+          </thead>
 
-         <tbody>
-         <tr>
+          <tbody>
+          <tr>
             <td>Amapola</td>
             <td>20$</td>
-         </tr>
+          </tr>
     
-         <tr>
+          <tr>
             <td>Cactus</td>
             <td>13$</td>
-         </tr>
+          </tr>
     
-         <tr>
+          <tr>
             <td>Helecho</td>
             <td>25$</td>
             </tr>
 
-         <tr>
+          <tr>
             <td>Agatha</td>
-             <td>21$</td>
+           <td>21$</td>
             </tr>
-         </tbody>
-
+          </tbody>
     </table>
     </div>
 
     <footer>
-    <a href="#titulo">Ir al comienzo</a>
-    <a href="mailto:somosplanta@gmail.com">Contáctanos</a> 
-    <p>Derechos reservados a PLANTA ©</p> 
+       <a href="#image">Ir al comienzo</a>
+       <a href="mailto:somosplanta@gmail.com">Contáctanos</a> 
+       <p>Derechos reservados a PLANTA ©</p> 
     </footer>
 
  </body>
